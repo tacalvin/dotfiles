@@ -1,0 +1,1312 @@
+2019-01-06 00:08:04,295 INFO     [22886] (deoplete.logging) --- Deoplete Log Start ---
+2019-01-06 00:08:04,295 INFO     [22886] (deoplete.logging) NVIM v0.3.2, Python 3.7.1, pynvim 0.3.1
+2019-01-06 00:08:07,506 DEBUG    [22886] (deoplete.core) completion_begin (TextChangedI): ''
+2019-01-06 00:08:07,537 DEBUG    [22886] (deoplete.core) Process 0: /home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/source/base.py
+2019-01-06 00:08:07,541 DEBUG    [22886] (deoplete.core) Process 1: /home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/source/dictionary.py
+2019-01-06 00:08:07,544 DEBUG    [22886] (deoplete.core) Process 2: /home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/source/tag.py
+2019-01-06 00:08:07,546 DEBUG    [22886] (deoplete.core) on_event: Init
+2019-01-06 00:08:07,549 DEBUG    [22886] (deoplete.core) Process 3: /home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/source/around.py
+2019-01-06 00:08:07,549 DEBUG    [22886] (deoplete.core) Process 0: /home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/source/file.py
+2019-01-06 00:08:07,549 DEBUG    [22886] (deoplete.core) Process 1: /home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/source/buffer.py
+2019-01-06 00:08:07,549 DEBUG    [22886] (deoplete.core) Process 2: /home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/source/omni.py
+2019-01-06 00:08:07,549 DEBUG    [22886] (deoplete.core) Process 3: /home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/source/member.py
+2019-01-06 00:08:07,550 DEBUG    [22886] (deoplete.core) Process 0: /home/cta/.cache/vimfiles/repos/github.com/autozimu/LanguageClient-neovim/rplugin/python3/deoplete/sources/LanguageClientSource.py
+2019-01-06 00:08:07,551 DEBUG    [22886] (deoplete.core) Process 1: /home/cta/.cache/vimfiles/repos/github.com/Shougo/neosnippet.vim/rplugin/python3/deoplete/sources/neosnippet.py
+2019-01-06 00:08:07,551 DEBUG    [22886] (deoplete.core) Process 2: /home/cta/.cache/vimfiles/repos/github.com/Shougo/neoinclude.vim/rplugin/python3/deoplete/sources/file_include.py
+2019-01-06 00:08:07,551 DEBUG    [22886] (deoplete.core) Process 3: /home/cta/.cache/vimfiles/repos/github.com/ujihisa/neco-look/rplugin/python3/deoplete/sources/look.py
+2019-01-06 00:08:07,551 DEBUG    [22886] (deoplete.core) Process 0: /home/cta/.cache/vimfiles/repos/github.com/Shougo/neco-syntax/rplugin/python3/deoplete/sources/syntax.py
+2019-01-06 00:08:07,571 DEBUG    [22886] (deoplete.core) on_event: InsertEnter
+2019-01-06 00:08:07,610 DEBUG    [22886] (deoplete.core) on_event: TextChangedI
+2019-01-06 00:08:07,615 DEBUG    [22886] (deoplete.core) do_complete (TextChangedI): 0 candidates, input=, complete_position=-1, is_async=1
+2019-01-06 00:08:07,645 DEBUG    [22886] (deoplete.core) completion_begin (Async): ''
+2019-01-06 00:08:07,654 DEBUG    [22886] (deoplete.core) do_complete (Async): 0 candidates, input=, complete_position=-1, is_async=1
+2019-01-06 00:08:07,682 DEBUG    [22886] (deoplete.core) completion_begin (Async): ''
+2019-01-06 00:08:07,691 DEBUG    [22886] (deoplete.core) do_complete (Async): 0 candidates, input=, complete_position=-1, is_async=1
+2019-01-06 00:08:07,719 DEBUG    [22886] (deoplete.core) completion_begin (Async): ''
+2019-01-06 00:08:07,727 DEBUG    [22886] (deoplete.core) do_complete (Async): 0 candidates, input=, complete_position=-1, is_async=1
+2019-01-06 00:08:07,742 INFO     [22899] (deoplete.logging) --- Deoplete Log Start ---
+2019-01-06 00:08:07,743 INFO     [22899] (deoplete.logging) NVIM v0.3.2, Python 3.7.1, pynvim 0.3.1
+2019-01-06 00:08:07,745 DEBUG    [22899] (deoplete.child) Loaded Source: tag (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/source/tag.py)
+2019-01-06 00:08:07,745 DEBUG    [22899] (deoplete.child) Loaded Source: omni (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/source/omni.py)
+2019-01-06 00:08:07,745 DEBUG    [22899] (deoplete.child) Loaded Source: file/include (/home/cta/.cache/vimfiles/repos/github.com/Shougo/neoinclude.vim/rplugin/python3/deoplete/sources/file_include.py)
+2019-01-06 00:08:07,745 DEBUG    [22899] (deoplete.child) Set Source attributes: tag
+2019-01-06 00:08:07,745 DEBUG    [22899] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:07,745 DEBUG    [22899] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:07,746 DEBUG    [22899] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:07,746 DEBUG    [22899] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:07,746 DEBUG    [22899] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:07,746 DEBUG    [22899] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:07,746 DEBUG    [22899] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:07,746 DEBUG    [22899] (deoplete.child) Attribute: mark ([T])
+2019-01-06 00:08:07,746 DEBUG    [22899] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:07,746 DEBUG    [22899] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:07,746 DEBUG    [22899] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:07,746 DEBUG    [22899] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:07,746 DEBUG    [22899] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:07,746 DEBUG    [22899] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:07,746 DEBUG    [22899] (deoplete.child) Attribute: min_pattern_length (-1)
+2019-01-06 00:08:07,746 DEBUG    [22899] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:07,747 DEBUG    [22899] (deoplete.child) Set Source attributes: omni
+2019-01-06 00:08:07,747 DEBUG    [22899] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:07,747 DEBUG    [22899] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:07,747 DEBUG    [22899] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: mark ()
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: min_pattern_length (0)
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Set Source attributes: file/include
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: mark ([FI])
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: matchers (['matcher_head'])
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: min_pattern_length (0)
+2019-01-06 00:08:07,748 DEBUG    [22899] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:07,749 DEBUG    [22899] (deoplete.child) Loaded Filter: sorter_word (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/sorter_word.py)
+2019-01-06 00:08:07,749 DEBUG    [22899] (deoplete.child) Loaded Filter: sorter_rank (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/sorter_rank.py)
+2019-01-06 00:08:07,749 DEBUG    [22899] (deoplete.child) Loaded Filter: converter_truncate_kind (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/converter_truncate_kind.py)
+2019-01-06 00:08:07,749 DEBUG    [22899] (deoplete.child) Loaded Filter: matcher_length (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/matcher_length.py)
+2019-01-06 00:08:07,749 DEBUG    [22899] (deoplete.child) Loaded Filter: matcher_cpsm (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/matcher_cpsm.py)
+2019-01-06 00:08:07,749 INFO     [22897] (deoplete.logging) --- Deoplete Log Start ---
+2019-01-06 00:08:07,749 DEBUG    [22899] (deoplete.child) Loaded Filter: matcher_head (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/matcher_head.py)
+2019-01-06 00:08:07,750 DEBUG    [22899] (deoplete.child) Loaded Filter: matcher_fuzzy (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/matcher_fuzzy.py)
+2019-01-06 00:08:07,750 DEBUG    [22899] (deoplete.child) Loaded Filter: converter_remove_paren (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/converter_remove_paren.py)
+2019-01-06 00:08:07,750 DEBUG    [22899] (deoplete.child) Loaded Filter: matcher_full_fuzzy (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/matcher_full_fuzzy.py)
+2019-01-06 00:08:07,750 DEBUG    [22899] (deoplete.child) Loaded Filter: converter_auto_paren (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/converter_auto_paren.py)
+2019-01-06 00:08:07,750 INFO     [22897] (deoplete.logging) NVIM v0.3.2, Python 3.7.1, pynvim 0.3.1
+2019-01-06 00:08:07,750 DEBUG    [22899] (deoplete.child) Loaded Filter: converter_remove_overlap (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/converter_remove_overlap.py)
+2019-01-06 00:08:07,750 DEBUG    [22899] (deoplete.child) Loaded Filter: converter_truncate_menu (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/converter_truncate_menu.py)
+2019-01-06 00:08:07,751 DEBUG    [22899] (deoplete.child) Loaded Filter: converter_auto_delimiter (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/converter_auto_delimiter.py)
+2019-01-06 00:08:07,751 DEBUG    [22899] (deoplete.child) Loaded Filter: converter_truncate_abbr (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/converter_truncate_abbr.py)
+2019-01-06 00:08:07,751 DEBUG    [22899] (deoplete.child) Set Source attributes: tag
+2019-01-06 00:08:07,751 DEBUG    [22899] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:07,751 DEBUG    [22899] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:07,751 DEBUG    [22899] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:07,751 DEBUG    [22899] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:07,751 DEBUG    [22899] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:07,751 DEBUG    [22899] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:07,751 DEBUG    [22899] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:07,751 DEBUG    [22899] (deoplete.child) Attribute: mark ([T])
+2019-01-06 00:08:07,751 DEBUG    [22899] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:07,751 DEBUG    [22899] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:07,751 DEBUG    [22899] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:07,751 DEBUG    [22899] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:07,751 DEBUG    [22899] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:07,751 DEBUG    [22899] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:07,751 DEBUG    [22899] (deoplete.child) Attribute: min_pattern_length (2)
+2019-01-06 00:08:07,751 DEBUG    [22899] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:07,751 DEBUG    [22899] (deoplete.child) Set Source attributes: omni
+2019-01-06 00:08:07,751 DEBUG    [22899] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: mark ()
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: min_pattern_length (0)
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Set Source attributes: file/include
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:07,752 DEBUG    [22897] (deoplete.child) Loaded Source: file (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/source/file.py)
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: mark ([FI])
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: matchers (['matcher_head'])
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: min_pattern_length (0)
+2019-01-06 00:08:07,752 DEBUG    [22899] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:07,753 DEBUG    [22897] (deoplete.child) Loaded Source: LanguageClient (/home/cta/.cache/vimfiles/repos/github.com/autozimu/LanguageClient-neovim/rplugin/python3/deoplete/sources/LanguageClientSource.py)
+2019-01-06 00:08:07,785 DEBUG    [22897] (deoplete.child) Loaded Source: syntax (/home/cta/.cache/vimfiles/repos/github.com/Shougo/neco-syntax/rplugin/python3/deoplete/sources/syntax.py)
+2019-01-06 00:08:07,785 DEBUG    [22897] (deoplete.child) Set Source attributes: file
+2019-01-06 00:08:07,785 DEBUG    [22897] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:07,785 DEBUG    [22897] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:07,785 DEBUG    [22897] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:07,785 DEBUG    [22897] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:07,785 DEBUG    [22897] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:07,785 DEBUG    [22897] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:07,785 DEBUG    [22897] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:07,785 DEBUG    [22897] (deoplete.child) Attribute: mark ([F])
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: min_pattern_length (0)
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Set Source attributes: LanguageClient
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: dup (True)
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: filetypes (dict_keys(['rust', 'cpp', 'python']))
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: input_pattern ((\.|::|->)\w*$)
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: mark ([LC])
+2019-01-06 00:08:07,786 INFO     [22900] (deoplete.logging) --- Deoplete Log Start ---
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: min_pattern_length (1)
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Set Source attributes: syntax
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:07,786 DEBUG    [22897] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:07,787 DEBUG    [22897] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:07,787 DEBUG    [22897] (deoplete.child) Attribute: mark ([S])
+2019-01-06 00:08:07,787 DEBUG    [22897] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:07,787 DEBUG    [22897] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:07,787 DEBUG    [22897] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:07,787 DEBUG    [22897] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:07,787 DEBUG    [22897] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:07,787 DEBUG    [22897] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:07,787 DEBUG    [22897] (deoplete.child) Attribute: min_pattern_length (-1)
+2019-01-06 00:08:07,787 DEBUG    [22897] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:07,787 DEBUG    [22886] (deoplete.core) completion_begin (Async): ''
+2019-01-06 00:08:07,787 INFO     [22900] (deoplete.logging) NVIM v0.3.2, Python 3.7.1, pynvim 0.3.1
+2019-01-06 00:08:07,789 INFO     [22898] (deoplete.logging) --- Deoplete Log Start ---
+2019-01-06 00:08:07,789 DEBUG    [22897] (deoplete.child) Loaded Filter: sorter_word (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/sorter_word.py)
+2019-01-06 00:08:07,789 DEBUG    [22897] (deoplete.child) Loaded Filter: sorter_rank (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/sorter_rank.py)
+2019-01-06 00:08:07,789 DEBUG    [22897] (deoplete.child) Loaded Filter: converter_truncate_kind (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/converter_truncate_kind.py)
+2019-01-06 00:08:07,789 DEBUG    [22897] (deoplete.child) Loaded Filter: matcher_length (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/matcher_length.py)
+2019-01-06 00:08:07,789 DEBUG    [22897] (deoplete.child) Loaded Filter: matcher_cpsm (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/matcher_cpsm.py)
+2019-01-06 00:08:07,790 DEBUG    [22897] (deoplete.child) Loaded Filter: matcher_head (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/matcher_head.py)
+2019-01-06 00:08:07,790 INFO     [22898] (deoplete.logging) NVIM v0.3.2, Python 3.7.1, pynvim 0.3.1
+2019-01-06 00:08:07,790 DEBUG    [22897] (deoplete.child) Loaded Filter: matcher_fuzzy (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/matcher_fuzzy.py)
+2019-01-06 00:08:07,790 DEBUG    [22900] (deoplete.child) Loaded Source: around (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/source/around.py)
+2019-01-06 00:08:07,790 DEBUG    [22897] (deoplete.child) Loaded Filter: converter_remove_paren (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/converter_remove_paren.py)
+2019-01-06 00:08:07,790 DEBUG    [22900] (deoplete.child) Loaded Source: member (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/source/member.py)
+2019-01-06 00:08:07,790 DEBUG    [22897] (deoplete.child) Loaded Filter: matcher_full_fuzzy (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/matcher_full_fuzzy.py)
+2019-01-06 00:08:07,790 DEBUG    [22897] (deoplete.child) Loaded Filter: converter_auto_paren (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/converter_auto_paren.py)
+2019-01-06 00:08:07,790 DEBUG    [22897] (deoplete.child) Loaded Filter: converter_remove_overlap (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/converter_remove_overlap.py)
+2019-01-06 00:08:07,791 DEBUG    [22897] (deoplete.child) Loaded Filter: converter_truncate_menu (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/converter_truncate_menu.py)
+2019-01-06 00:08:07,791 DEBUG    [22897] (deoplete.child) Loaded Filter: converter_auto_delimiter (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/converter_auto_delimiter.py)
+2019-01-06 00:08:07,791 DEBUG    [22897] (deoplete.child) Loaded Filter: converter_truncate_abbr (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/converter_truncate_abbr.py)
+2019-01-06 00:08:07,791 DEBUG    [22897] (deoplete.child) Set Source attributes: file
+2019-01-06 00:08:07,791 DEBUG    [22897] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:07,791 DEBUG    [22897] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:07,791 DEBUG    [22897] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:07,791 DEBUG    [22897] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:07,791 DEBUG    [22897] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:07,791 DEBUG    [22897] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:07,791 DEBUG    [22897] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:07,791 DEBUG    [22897] (deoplete.child) Attribute: mark ([F])
+2019-01-06 00:08:07,791 DEBUG    [22897] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:07,791 DEBUG    [22897] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:07,791 DEBUG    [22897] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:07,791 DEBUG    [22897] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:07,791 DEBUG    [22897] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:07,791 DEBUG    [22897] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:07,791 DEBUG    [22897] (deoplete.child) Attribute: min_pattern_length (0)
+2019-01-06 00:08:07,791 DEBUG    [22897] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Set Source attributes: LanguageClient
+2019-01-06 00:08:07,792 DEBUG    [22898] (deoplete.child) Loaded Source: dictionary (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/source/dictionary.py)
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: dup (True)
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: filetypes (dict_keys(['rust', 'cpp', 'python']))
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: input_pattern ((\.|::|->)\w*$)
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: mark ([LC])
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:07,792 DEBUG    [22898] (deoplete.child) Loaded Source: buffer (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/source/buffer.py)
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: min_pattern_length (1)
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Set Source attributes: syntax
+2019-01-06 00:08:07,792 DEBUG    [22898] (deoplete.child) Loaded Source: neosnippet (/home/cta/.cache/vimfiles/repos/github.com/Shougo/neosnippet.vim/rplugin/python3/deoplete/sources/neosnippet.py)
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:07,792 DEBUG    [22900] (deoplete.child) Loaded Source: look (/home/cta/.cache/vimfiles/repos/github.com/ujihisa/neco-look/rplugin/python3/deoplete/sources/look.py)
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:07,792 DEBUG    [22898] (deoplete.child) Set Source attributes: dictionary
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:07,792 DEBUG    [22900] (deoplete.child) Set Source attributes: around
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:07,792 DEBUG    [22900] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: mark ([S])
+2019-01-06 00:08:07,792 DEBUG    [22898] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:07,792 DEBUG    [22900] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:07,792 DEBUG    [22898] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:07,792 DEBUG    [22900] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:07,792 DEBUG    [22900] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:07,792 DEBUG    [22898] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:07,792 DEBUG    [22900] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:07,792 DEBUG    [22900] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:07,792 DEBUG    [22897] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:07,792 DEBUG    [22898] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:07,793 DEBUG    [22900] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:07,793 DEBUG    [22897] (deoplete.child) Attribute: min_pattern_length (2)
+2019-01-06 00:08:07,793 DEBUG    [22900] (deoplete.child) Attribute: mark ()
+2019-01-06 00:08:07,793 DEBUG    [22898] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:07,793 DEBUG    [22897] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:07,793 DEBUG    [22900] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:07,793 DEBUG    [22900] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:07,793 DEBUG    [22898] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:07,793 DEBUG    [22900] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:07,793 DEBUG    [22900] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:07,793 DEBUG    [22898] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:07,793 DEBUG    [22900] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:07,793 DEBUG    [22898] (deoplete.child) Attribute: mark ([D])
+2019-01-06 00:08:07,793 DEBUG    [22900] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:07,793 DEBUG    [22900] (deoplete.child) Attribute: min_pattern_length (-1)
+2019-01-06 00:08:07,793 DEBUG    [22898] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:07,793 DEBUG    [22900] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:07,793 DEBUG    [22898] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:07,793 DEBUG    [22898] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:07,793 DEBUG    [22898] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:07,793 DEBUG    [22898] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:07,793 DEBUG    [22898] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:07,793 DEBUG    [22898] (deoplete.child) Attribute: min_pattern_length (-1)
+2019-01-06 00:08:07,793 DEBUG    [22898] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:07,794 DEBUG    [22900] (deoplete.child) Set Source attributes: member
+2019-01-06 00:08:07,794 DEBUG    [22898] (deoplete.child) Set Source attributes: buffer
+2019-01-06 00:08:07,794 DEBUG    [22900] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:07,794 DEBUG    [22900] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:07,794 DEBUG    [22898] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:07,794 DEBUG    [22900] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:07,794 DEBUG    [22898] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:07,794 DEBUG    [22900] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:07,794 DEBUG    [22900] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:07,794 DEBUG    [22898] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:07,794 DEBUG    [22900] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:07,794 DEBUG    [22900] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:07,794 DEBUG    [22898] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:07,794 DEBUG    [22900] (deoplete.child) Attribute: mark ([M])
+2019-01-06 00:08:07,794 DEBUG    [22900] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:07,794 DEBUG    [22898] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:07,794 DEBUG    [22900] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:07,794 DEBUG    [22898] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:07,794 DEBUG    [22900] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:07,794 DEBUG    [22900] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:07,794 DEBUG    [22898] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:07,794 DEBUG    [22900] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:07,794 DEBUG    [22900] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:07,794 DEBUG    [22898] (deoplete.child) Attribute: mark ([B])
+2019-01-06 00:08:07,794 DEBUG    [22900] (deoplete.child) Attribute: min_pattern_length (0)
+2019-01-06 00:08:07,794 DEBUG    [22900] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:07,794 DEBUG    [22898] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:07,794 DEBUG    [22900] (deoplete.child) Set Source attributes: look
+2019-01-06 00:08:07,794 DEBUG    [22898] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:07,794 DEBUG    [22900] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:07,794 DEBUG    [22900] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:07,794 DEBUG    [22898] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:07,794 DEBUG    [22900] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:07,794 DEBUG    [22900] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:07,794 DEBUG    [22898] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:07,794 DEBUG    [22900] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:07,794 DEBUG    [22900] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:07,794 DEBUG    [22898] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:07,794 DEBUG    [22900] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:07,794 DEBUG    [22898] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:07,795 DEBUG    [22900] (deoplete.child) Attribute: mark ([look])
+2019-01-06 00:08:07,795 DEBUG    [22900] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:07,795 DEBUG    [22898] (deoplete.child) Attribute: min_pattern_length (-1)
+2019-01-06 00:08:07,795 DEBUG    [22900] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:07,795 DEBUG    [22900] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:07,795 DEBUG    [22898] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:07,795 DEBUG    [22900] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:07,795 DEBUG    [22900] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:07,795 DEBUG    [22900] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:07,795 DEBUG    [22900] (deoplete.child) Attribute: min_pattern_length (4)
+2019-01-06 00:08:07,795 DEBUG    [22900] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:07,795 DEBUG    [22886] (deoplete.core) do_complete (Async): 0 candidates, input=, complete_position=-1, is_async=1
+2019-01-06 00:08:07,795 DEBUG    [22900] (deoplete.child) Loaded Filter: sorter_word (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/sorter_word.py)
+2019-01-06 00:08:07,795 DEBUG    [22900] (deoplete.child) Loaded Filter: sorter_rank (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/sorter_rank.py)
+2019-01-06 00:08:07,796 DEBUG    [22900] (deoplete.child) Loaded Filter: converter_truncate_kind (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/converter_truncate_kind.py)
+2019-01-06 00:08:07,796 DEBUG    [22898] (deoplete.child) Set Source attributes: neosnippet
+2019-01-06 00:08:07,796 DEBUG    [22898] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:07,796 DEBUG    [22900] (deoplete.child) Loaded Filter: matcher_length (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/matcher_length.py)
+2019-01-06 00:08:07,796 DEBUG    [22898] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:07,796 DEBUG    [22898] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:07,796 DEBUG    [22898] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:07,796 DEBUG    [22900] (deoplete.child) Loaded Filter: matcher_cpsm (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/matcher_cpsm.py)
+2019-01-06 00:08:07,796 DEBUG    [22898] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:07,796 DEBUG    [22898] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:07,796 DEBUG    [22900] (deoplete.child) Loaded Filter: matcher_head (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/matcher_head.py)
+2019-01-06 00:08:07,796 DEBUG    [22898] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:07,796 DEBUG    [22898] (deoplete.child) Attribute: mark ([ns])
+2019-01-06 00:08:07,796 DEBUG    [22898] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:07,796 DEBUG    [22900] (deoplete.child) Loaded Filter: matcher_fuzzy (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/matcher_fuzzy.py)
+2019-01-06 00:08:07,796 DEBUG    [22898] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:07,796 DEBUG    [22898] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:07,796 DEBUG    [22900] (deoplete.child) Loaded Filter: converter_remove_paren (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/converter_remove_paren.py)
+2019-01-06 00:08:07,796 DEBUG    [22898] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:07,797 DEBUG    [22898] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:07,797 DEBUG    [22898] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:07,797 DEBUG    [22900] (deoplete.child) Loaded Filter: matcher_full_fuzzy (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/matcher_full_fuzzy.py)
+2019-01-06 00:08:07,797 DEBUG    [22898] (deoplete.child) Attribute: min_pattern_length (-1)
+2019-01-06 00:08:07,797 DEBUG    [22898] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:07,797 DEBUG    [22900] (deoplete.child) Loaded Filter: converter_auto_paren (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/converter_auto_paren.py)
+2019-01-06 00:08:07,797 DEBUG    [22900] (deoplete.child) Loaded Filter: converter_remove_overlap (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/converter_remove_overlap.py)
+2019-01-06 00:08:07,797 DEBUG    [22900] (deoplete.child) Loaded Filter: converter_truncate_menu (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/converter_truncate_menu.py)
+2019-01-06 00:08:07,797 DEBUG    [22886] (deoplete.core) completion_begin (Async): ''
+2019-01-06 00:08:07,797 DEBUG    [22900] (deoplete.child) Loaded Filter: converter_auto_delimiter (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/converter_auto_delimiter.py)
+2019-01-06 00:08:07,798 DEBUG    [22900] (deoplete.child) Loaded Filter: converter_truncate_abbr (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/converter_truncate_abbr.py)
+2019-01-06 00:08:07,798 DEBUG    [22900] (deoplete.child) Set Source attributes: around
+2019-01-06 00:08:07,798 DEBUG    [22900] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:07,798 DEBUG    [22900] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:07,798 DEBUG    [22898] (deoplete.child) Loaded Filter: sorter_word (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/sorter_word.py)
+2019-01-06 00:08:07,798 DEBUG    [22900] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:07,798 DEBUG    [22900] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:07,798 DEBUG    [22900] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:07,798 DEBUG    [22900] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:07,798 DEBUG    [22900] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:07,798 DEBUG    [22900] (deoplete.child) Attribute: mark ()
+2019-01-06 00:08:07,798 DEBUG    [22900] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:07,798 DEBUG    [22898] (deoplete.child) Loaded Filter: sorter_rank (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/sorter_rank.py)
+2019-01-06 00:08:07,798 DEBUG    [22900] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:07,798 DEBUG    [22900] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:07,798 DEBUG    [22900] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:07,798 DEBUG    [22900] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:07,798 DEBUG    [22900] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:07,798 DEBUG    [22900] (deoplete.child) Attribute: min_pattern_length (2)
+2019-01-06 00:08:07,798 DEBUG    [22900] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:07,798 DEBUG    [22900] (deoplete.child) Set Source attributes: member
+2019-01-06 00:08:07,798 DEBUG    [22898] (deoplete.child) Loaded Filter: converter_truncate_kind (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/converter_truncate_kind.py)
+2019-01-06 00:08:07,798 DEBUG    [22900] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:07,798 DEBUG    [22900] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:07,798 DEBUG    [22900] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:07,798 DEBUG    [22900] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:07,798 DEBUG    [22900] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:07,798 DEBUG    [22900] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:07,798 DEBUG    [22900] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:07,798 DEBUG    [22898] (deoplete.child) Loaded Filter: matcher_length (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/matcher_length.py)
+2019-01-06 00:08:07,799 DEBUG    [22900] (deoplete.child) Attribute: mark ([M])
+2019-01-06 00:08:07,799 DEBUG    [22900] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:07,799 DEBUG    [22900] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:07,799 DEBUG    [22900] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:07,799 DEBUG    [22900] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:07,799 DEBUG    [22900] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:07,799 DEBUG    [22898] (deoplete.child) Loaded Filter: matcher_cpsm (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/matcher_cpsm.py)
+2019-01-06 00:08:07,799 DEBUG    [22900] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:07,799 DEBUG    [22900] (deoplete.child) Attribute: min_pattern_length (0)
+2019-01-06 00:08:07,799 DEBUG    [22900] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:07,799 DEBUG    [22900] (deoplete.child) Set Source attributes: look
+2019-01-06 00:08:07,799 DEBUG    [22900] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:07,799 DEBUG    [22900] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:07,799 DEBUG    [22900] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:07,799 DEBUG    [22900] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:07,799 DEBUG    [22898] (deoplete.child) Loaded Filter: matcher_head (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/matcher_head.py)
+2019-01-06 00:08:07,799 DEBUG    [22900] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:07,799 DEBUG    [22900] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:07,799 DEBUG    [22900] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:07,799 DEBUG    [22900] (deoplete.child) Attribute: mark ([look])
+2019-01-06 00:08:07,799 DEBUG    [22900] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:07,799 DEBUG    [22900] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:07,799 DEBUG    [22900] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:07,799 DEBUG    [22898] (deoplete.child) Loaded Filter: matcher_fuzzy (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/matcher_fuzzy.py)
+2019-01-06 00:08:07,799 DEBUG    [22900] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:07,799 DEBUG    [22900] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:07,799 DEBUG    [22900] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:07,799 DEBUG    [22900] (deoplete.child) Attribute: min_pattern_length (4)
+2019-01-06 00:08:07,799 DEBUG    [22900] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:07,799 DEBUG    [22898] (deoplete.child) Loaded Filter: converter_remove_paren (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/converter_remove_paren.py)
+2019-01-06 00:08:07,800 DEBUG    [22898] (deoplete.child) Loaded Filter: matcher_full_fuzzy (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/matcher_full_fuzzy.py)
+2019-01-06 00:08:07,800 DEBUG    [22898] (deoplete.child) Loaded Filter: converter_auto_paren (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/converter_auto_paren.py)
+2019-01-06 00:08:07,800 DEBUG    [22898] (deoplete.child) Loaded Filter: converter_remove_overlap (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/converter_remove_overlap.py)
+2019-01-06 00:08:07,800 DEBUG    [22898] (deoplete.child) Loaded Filter: converter_truncate_menu (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/converter_truncate_menu.py)
+2019-01-06 00:08:07,801 DEBUG    [22898] (deoplete.child) Loaded Filter: converter_auto_delimiter (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/converter_auto_delimiter.py)
+2019-01-06 00:08:07,801 DEBUG    [22898] (deoplete.child) Loaded Filter: converter_truncate_abbr (/home/cta/.cache/vimfiles/repos/github.com/Shougo/deoplete.nvim/rplugin/python3/deoplete/filter/converter_truncate_abbr.py)
+2019-01-06 00:08:07,801 DEBUG    [22898] (deoplete.child) Set Source attributes: dictionary
+2019-01-06 00:08:07,801 DEBUG    [22898] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:07,801 DEBUG    [22898] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:07,801 DEBUG    [22898] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:07,801 DEBUG    [22898] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:07,801 DEBUG    [22898] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:07,801 DEBUG    [22898] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:07,801 DEBUG    [22898] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:07,801 DEBUG    [22898] (deoplete.child) Attribute: mark ([D])
+2019-01-06 00:08:07,802 DEBUG    [22898] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:07,802 DEBUG    [22898] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:07,802 DEBUG    [22898] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:07,802 DEBUG    [22898] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:07,802 DEBUG    [22898] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:07,802 DEBUG    [22898] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:07,802 DEBUG    [22898] (deoplete.child) Attribute: min_pattern_length (2)
+2019-01-06 00:08:07,802 DEBUG    [22898] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:07,802 DEBUG    [22898] (deoplete.child) Set Source attributes: buffer
+2019-01-06 00:08:07,802 DEBUG    [22898] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:07,802 DEBUG    [22898] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:07,802 DEBUG    [22898] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:07,802 DEBUG    [22898] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:07,802 DEBUG    [22898] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:07,802 DEBUG    [22898] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:07,802 DEBUG    [22898] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:07,802 DEBUG    [22898] (deoplete.child) Attribute: mark ([B])
+2019-01-06 00:08:07,802 DEBUG    [22898] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:07,803 DEBUG    [22898] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:07,803 DEBUG    [22898] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:07,803 DEBUG    [22898] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:07,803 DEBUG    [22898] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:07,803 DEBUG    [22898] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:07,803 DEBUG    [22898] (deoplete.child) Attribute: min_pattern_length (2)
+2019-01-06 00:08:07,803 DEBUG    [22898] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:07,803 DEBUG    [22898] (deoplete.child) Set Source attributes: neosnippet
+2019-01-06 00:08:07,803 DEBUG    [22898] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:07,803 DEBUG    [22898] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:07,803 DEBUG    [22898] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:07,803 DEBUG    [22898] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:07,803 DEBUG    [22898] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:07,803 DEBUG    [22898] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:07,803 DEBUG    [22898] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:07,803 DEBUG    [22898] (deoplete.child) Attribute: mark ([ns])
+2019-01-06 00:08:07,803 DEBUG    [22898] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:07,803 DEBUG    [22898] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:07,804 DEBUG    [22898] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:07,804 DEBUG    [22898] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:07,804 DEBUG    [22898] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:07,804 DEBUG    [22898] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:07,804 DEBUG    [22898] (deoplete.child) Attribute: min_pattern_length (2)
+2019-01-06 00:08:07,804 DEBUG    [22898] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:07,806 DEBUG    [22886] (deoplete.core) do_complete (Async): 0 candidates, input=, complete_position=-1, is_async=1
+2019-01-06 00:08:07,832 DEBUG    [22886] (deoplete.core) completion_begin (Async): ''
+2019-01-06 00:08:07,839 DEBUG    [22886] (deoplete.core) do_complete (Async): 0 candidates, input=, complete_position=-1, is_async=1
+2019-01-06 00:08:07,866 DEBUG    [22886] (deoplete.core) completion_begin (Async): ''
+2019-01-06 00:08:07,874 DEBUG    [22886] (deoplete.core) do_complete (Async): 0 candidates, input=, complete_position=-1, is_async=1
+2019-01-06 00:08:07,896 DEBUG    [22886] (deoplete.core) completion_begin (Async): ''
+2019-01-06 00:08:07,901 DEBUG    [22886] (deoplete.core) do_complete (Async): 0 candidates, input=, complete_position=-1, is_async=0
+2019-01-06 00:08:08,403 DEBUG    [22886] (deoplete.core) completion_begin (TextChangedI): 'n'
+2019-01-06 00:08:08,415 DEBUG    [22886] (deoplete.core) do_complete (TextChangedI): 0 candidates, input=n, complete_position=-1, is_async=1
+2019-01-06 00:08:08,418 DEBUG    [22897] (deoplete.child) Profile Start: LanguageClient
+2019-01-06 00:08:08,420 DEBUG    [22897] (deoplete.child) Profile End  : LanguageClient            time=0.0004940000
+2019-01-06 00:08:08,436 DEBUG    [22886] (deoplete.core) completion_begin (Async): 'n'
+2019-01-06 00:08:08,441 DEBUG    [22886] (deoplete.core) do_complete (Async): 0 candidates, input=n, complete_position=-1, is_async=1
+2019-01-06 00:08:08,466 DEBUG    [22886] (deoplete.core) completion_begin (Async): 'n'
+2019-01-06 00:08:08,471 DEBUG    [22886] (deoplete.core) do_complete (Async): 0 candidates, input=n, complete_position=-1, is_async=1
+2019-01-06 00:08:08,505 DEBUG    [22886] (deoplete.core) completion_begin (Async): 'ne'
+2019-01-06 00:08:08,513 DEBUG    [22886] (deoplete.core) do_complete (Async): 0 candidates, input=ne, complete_position=-1, is_async=1
+2019-01-06 00:08:08,513 DEBUG    [22899] (deoplete.child) Profile Start: tag
+2019-01-06 00:08:08,513 DEBUG    [22900] (deoplete.child) Profile Start: around
+2019-01-06 00:08:08,513 DEBUG    [22898] (deoplete.child) Profile Start: dictionary
+2019-01-06 00:08:08,514 DEBUG    [22897] (deoplete.child) Profile Start: LanguageClient
+2019-01-06 00:08:08,559 DEBUG    [22897] (deoplete.child) Profile End  : LanguageClient            time=0.0005450000
+2019-01-06 00:08:08,559 DEBUG    [22900] (deoplete.child) Profile End  : around                    time=0.0013460000
+2019-01-06 00:08:08,559 DEBUG    [22897] (deoplete.child) Profile Start: syntax
+2019-01-06 00:08:08,559 DEBUG    [22897] (deoplete.child) Profile End  : syntax                    time=0.0000050000
+2019-01-06 00:08:08,560 DEBUG    [22899] (deoplete.child) Profile End  : tag                       time=0.0013080000
+2019-01-06 00:08:08,561 DEBUG    [22900] (deoplete.child) Profile Start: matcher_full_fuzzy
+2019-01-06 00:08:08,561 DEBUG    [22897] (deoplete.child) Profile Start: matcher_full_fuzzy
+2019-01-06 00:08:08,561 DEBUG    [22900] (deoplete.child) Profile End  : matcher_full_fuzzy        time=0.0003380000
+2019-01-06 00:08:08,561 DEBUG    [22900] (deoplete.child) Profile Start: sorter_rank
+2019-01-06 00:08:08,561 DEBUG    [22900] (deoplete.child) Profile End  : sorter_rank               time=0.0000120000
+2019-01-06 00:08:08,561 DEBUG    [22900] (deoplete.child) Profile Start: converter_remove_overlap
+2019-01-06 00:08:08,561 DEBUG    [22900] (deoplete.child) Profile End  : converter_remove_overlap  time=0.0000070000
+2019-01-06 00:08:08,561 DEBUG    [22897] (deoplete.child) Profile End  : matcher_full_fuzzy        time=0.0004220000
+2019-01-06 00:08:08,561 DEBUG    [22900] (deoplete.child) Profile Start: converter_truncate_abbr
+2019-01-06 00:08:08,561 DEBUG    [22897] (deoplete.child) Profile Start: sorter_rank
+2019-01-06 00:08:08,561 DEBUG    [22900] (deoplete.child) Profile End  : converter_truncate_abbr   time=0.0000140000
+2019-01-06 00:08:08,561 DEBUG    [22898] (deoplete.child) Profile End  : dictionary                time=0.0017470000
+2019-01-06 00:08:08,561 DEBUG    [22900] (deoplete.child) Profile Start: converter_truncate_kind
+2019-01-06 00:08:08,561 DEBUG    [22897] (deoplete.child) Profile End  : sorter_rank               time=0.0000380000
+2019-01-06 00:08:08,562 DEBUG    [22900] (deoplete.child) Profile End  : converter_truncate_kind   time=0.0000040000
+2019-01-06 00:08:08,562 DEBUG    [22897] (deoplete.child) Profile Start: converter_remove_overlap
+2019-01-06 00:08:08,562 DEBUG    [22900] (deoplete.child) Profile Start: converter_truncate_menu
+2019-01-06 00:08:08,562 DEBUG    [22897] (deoplete.child) Profile End  : converter_remove_overlap  time=0.0000060000
+2019-01-06 00:08:08,562 DEBUG    [22900] (deoplete.child) Profile End  : converter_truncate_menu   time=0.0000080000
+2019-01-06 00:08:08,562 DEBUG    [22897] (deoplete.child) Profile Start: converter_truncate_abbr
+2019-01-06 00:08:08,562 DEBUG    [22898] (deoplete.child) Profile Start: buffer
+2019-01-06 00:08:08,562 DEBUG    [22897] (deoplete.child) Profile End  : converter_truncate_abbr   time=0.0000220000
+2019-01-06 00:08:08,562 DEBUG    [22897] (deoplete.child) Profile Start: converter_truncate_kind
+2019-01-06 00:08:08,562 DEBUG    [22897] (deoplete.child) Profile End  : converter_truncate_kind   time=0.0000050000
+2019-01-06 00:08:08,562 DEBUG    [22897] (deoplete.child) Profile Start: converter_truncate_menu
+2019-01-06 00:08:08,562 DEBUG    [22897] (deoplete.child) Profile End  : converter_truncate_menu   time=0.0000170000
+2019-01-06 00:08:08,563 DEBUG    [22898] (deoplete.child) Profile End  : buffer                    time=0.0004650000
+2019-01-06 00:08:08,564 DEBUG    [22898] (deoplete.child) Profile Start: neosnippet
+2019-01-06 00:08:08,564 DEBUG    [22898] (deoplete.child) Profile End  : neosnippet                time=0.0001290000
+2019-01-06 00:08:08,564 DEBUG    [22898] (deoplete.child) Profile Start: matcher_full_fuzzy
+2019-01-06 00:08:08,564 DEBUG    [22898] (deoplete.child) Profile End  : matcher_full_fuzzy        time=0.0000040000
+2019-01-06 00:08:08,564 DEBUG    [22898] (deoplete.child) Profile Start: sorter_rank
+2019-01-06 00:08:08,564 DEBUG    [22898] (deoplete.child) Profile End  : sorter_rank               time=0.0000270000
+2019-01-06 00:08:08,564 DEBUG    [22898] (deoplete.child) Profile Start: converter_remove_overlap
+2019-01-06 00:08:08,564 DEBUG    [22898] (deoplete.child) Profile End  : converter_remove_overlap  time=0.0000050000
+2019-01-06 00:08:08,564 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_abbr
+2019-01-06 00:08:08,564 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_abbr   time=0.0000040000
+2019-01-06 00:08:08,564 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_kind
+2019-01-06 00:08:08,564 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_kind   time=0.0000040000
+2019-01-06 00:08:08,564 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_menu
+2019-01-06 00:08:08,564 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_menu   time=0.0000040000
+2019-01-06 00:08:08,564 DEBUG    [22898] (deoplete.child) Profile Start: matcher_full_fuzzy
+2019-01-06 00:08:08,565 DEBUG    [22898] (deoplete.child) Profile End  : matcher_full_fuzzy        time=0.0002850000
+2019-01-06 00:08:08,565 DEBUG    [22898] (deoplete.child) Profile Start: sorter_rank
+2019-01-06 00:08:08,565 DEBUG    [22898] (deoplete.child) Profile End  : sorter_rank               time=0.0000080000
+2019-01-06 00:08:08,565 DEBUG    [22898] (deoplete.child) Profile Start: converter_remove_overlap
+2019-01-06 00:08:08,565 DEBUG    [22898] (deoplete.child) Profile End  : converter_remove_overlap  time=0.0000040000
+2019-01-06 00:08:08,565 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_abbr
+2019-01-06 00:08:08,565 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_abbr   time=0.0000060000
+2019-01-06 00:08:08,565 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_kind
+2019-01-06 00:08:08,565 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_kind   time=0.0000040000
+2019-01-06 00:08:08,565 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_menu
+2019-01-06 00:08:08,565 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_menu   time=0.0000030000
+2019-01-06 00:08:08,566 DEBUG    [22886] (deoplete.core) completion_begin (Async): 'ne'
+2019-01-06 00:08:08,568 DEBUG    [22898] (deoplete.child) Profile Start: matcher_full_fuzzy
+2019-01-06 00:08:08,568 DEBUG    [22898] (deoplete.child) Profile End  : matcher_full_fuzzy        time=0.0001500000
+2019-01-06 00:08:08,568 DEBUG    [22898] (deoplete.child) Profile Start: sorter_rank
+2019-01-06 00:08:08,568 DEBUG    [22898] (deoplete.child) Profile End  : sorter_rank               time=0.0000130000
+2019-01-06 00:08:08,568 DEBUG    [22898] (deoplete.child) Profile Start: converter_remove_overlap
+2019-01-06 00:08:08,568 DEBUG    [22898] (deoplete.child) Profile End  : converter_remove_overlap  time=0.0000040000
+2019-01-06 00:08:08,568 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_abbr
+2019-01-06 00:08:08,568 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_abbr   time=0.0000080000
+2019-01-06 00:08:08,568 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_kind
+2019-01-06 00:08:08,568 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_kind   time=0.0000040000
+2019-01-06 00:08:08,568 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_menu
+2019-01-06 00:08:08,568 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_menu   time=0.0000360000
+2019-01-06 00:08:08,573 DEBUG    [22886] (deoplete.core) do_complete (Async): 54 candidates, input=ne, complete_position=0, is_async=1
+2019-01-06 00:08:09,569 DEBUG    [22886] (deoplete.core) completion_begin (Async): 'ne'
+2019-01-06 00:08:09,578 DEBUG    [22897] (deoplete.child) Set Source attributes: file
+2019-01-06 00:08:09,578 DEBUG    [22898] (deoplete.child) Set Source attributes: dictionary
+2019-01-06 00:08:09,578 DEBUG    [22897] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:09,578 DEBUG    [22900] (deoplete.child) Set Source attributes: around
+2019-01-06 00:08:09,578 DEBUG    [22899] (deoplete.child) Set Source attributes: tag
+2019-01-06 00:08:09,578 DEBUG    [22898] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:09,578 DEBUG    [22897] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:09,578 DEBUG    [22900] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:09,578 DEBUG    [22898] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:09,578 DEBUG    [22899] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:09,578 DEBUG    [22897] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:09,578 DEBUG    [22900] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:09,578 DEBUG    [22898] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:09,578 DEBUG    [22899] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:09,578 DEBUG    [22897] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:09,579 DEBUG    [22900] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:09,579 DEBUG    [22898] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:09,579 DEBUG    [22900] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:09,579 DEBUG    [22899] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:09,579 DEBUG    [22897] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:09,579 DEBUG    [22900] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:09,579 DEBUG    [22898] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:09,579 DEBUG    [22899] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:09,579 DEBUG    [22897] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:09,579 DEBUG    [22900] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:09,579 DEBUG    [22899] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:09,579 DEBUG    [22898] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:09,579 DEBUG    [22897] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:09,579 DEBUG    [22900] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:09,579 DEBUG    [22899] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:09,579 DEBUG    [22900] (deoplete.child) Attribute: mark ()
+2019-01-06 00:08:09,579 DEBUG    [22897] (deoplete.child) Attribute: mark ([F])
+2019-01-06 00:08:09,579 DEBUG    [22898] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:09,579 DEBUG    [22899] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:09,579 DEBUG    [22900] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:09,579 DEBUG    [22898] (deoplete.child) Attribute: mark ([D])
+2019-01-06 00:08:09,579 DEBUG    [22897] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:09,579 DEBUG    [22899] (deoplete.child) Attribute: mark ([T])
+2019-01-06 00:08:09,579 DEBUG    [22900] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:09,579 DEBUG    [22899] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:09,579 DEBUG    [22897] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:09,579 DEBUG    [22898] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:09,579 DEBUG    [22900] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:09,579 DEBUG    [22899] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:09,579 DEBUG    [22897] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:09,579 DEBUG    [22898] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:09,579 DEBUG    [22900] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:09,579 DEBUG    [22899] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:09,579 DEBUG    [22899] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:09,579 DEBUG    [22900] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:09,579 DEBUG    [22898] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:09,579 DEBUG    [22897] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:09,579 DEBUG    [22899] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:09,579 DEBUG    [22900] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:09,579 DEBUG    [22899] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:09,579 DEBUG    [22900] (deoplete.child) Attribute: min_pattern_length (2)
+2019-01-06 00:08:09,579 DEBUG    [22898] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:09,579 DEBUG    [22897] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:09,579 DEBUG    [22899] (deoplete.child) Attribute: min_pattern_length (2)
+2019-01-06 00:08:09,579 DEBUG    [22900] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:09,579 DEBUG    [22899] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:09,579 DEBUG    [22897] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:09,579 DEBUG    [22898] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:09,579 DEBUG    [22900] (deoplete.child) Set Source attributes: member
+2019-01-06 00:08:09,579 DEBUG    [22899] (deoplete.child) Set Source attributes: omni
+2019-01-06 00:08:09,579 DEBUG    [22900] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:09,579 DEBUG    [22899] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:09,579 DEBUG    [22898] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:09,579 DEBUG    [22897] (deoplete.child) Attribute: min_pattern_length (0)
+2019-01-06 00:08:09,579 DEBUG    [22900] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:09,579 DEBUG    [22899] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:09,579 DEBUG    [22900] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:09,579 DEBUG    [22897] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:09,579 DEBUG    [22898] (deoplete.child) Attribute: min_pattern_length (2)
+2019-01-06 00:08:09,579 DEBUG    [22899] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:09,579 DEBUG    [22900] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:09,580 DEBUG    [22899] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:09,580 DEBUG    [22898] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:09,580 DEBUG    [22900] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:09,580 DEBUG    [22897] (deoplete.child) Set Source attributes: LanguageClient
+2019-01-06 00:08:09,580 DEBUG    [22899] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:09,580 DEBUG    [22900] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:09,580 DEBUG    [22899] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:09,580 DEBUG    [22898] (deoplete.child) Set Source attributes: buffer
+2019-01-06 00:08:09,580 DEBUG    [22897] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:09,580 DEBUG    [22900] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:09,580 DEBUG    [22899] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:09,580 DEBUG    [22900] (deoplete.child) Attribute: mark ([M])
+2019-01-06 00:08:09,580 DEBUG    [22899] (deoplete.child) Attribute: mark ()
+2019-01-06 00:08:09,580 DEBUG    [22897] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:09,580 DEBUG    [22898] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:09,580 DEBUG    [22900] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:09,580 DEBUG    [22899] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:09,580 DEBUG    [22900] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:09,580 DEBUG    [22899] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:09,580 DEBUG    [22898] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:09,580 DEBUG    [22897] (deoplete.child) Attribute: dup (True)
+2019-01-06 00:08:09,580 DEBUG    [22899] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:09,580 DEBUG    [22900] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:09,580 DEBUG    [22899] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:09,580 DEBUG    [22900] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:09,580 DEBUG    [22898] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:09,580 DEBUG    [22897] (deoplete.child) Attribute: filetypes (dict_keys(['rust', 'cpp', 'python']))
+2019-01-06 00:08:09,580 DEBUG    [22899] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:09,580 DEBUG    [22900] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:09,580 DEBUG    [22899] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:09,580 DEBUG    [22898] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:09,580 DEBUG    [22900] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:09,580 DEBUG    [22897] (deoplete.child) Attribute: input_pattern ((\.|::|->)\w*$)
+2019-01-06 00:08:09,580 DEBUG    [22899] (deoplete.child) Attribute: min_pattern_length (0)
+2019-01-06 00:08:09,580 DEBUG    [22900] (deoplete.child) Attribute: min_pattern_length (0)
+2019-01-06 00:08:09,580 DEBUG    [22898] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:09,580 DEBUG    [22899] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:09,580 DEBUG    [22897] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:09,580 DEBUG    [22900] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:09,580 DEBUG    [22899] (deoplete.child) Set Source attributes: file/include
+2019-01-06 00:08:09,580 DEBUG    [22900] (deoplete.child) Set Source attributes: look
+2019-01-06 00:08:09,580 DEBUG    [22898] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:09,580 DEBUG    [22897] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:09,580 DEBUG    [22899] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:09,580 DEBUG    [22900] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:09,580 DEBUG    [22899] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:09,580 DEBUG    [22897] (deoplete.child) Attribute: mark ([LC])
+2019-01-06 00:08:09,580 DEBUG    [22898] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:09,580 DEBUG    [22900] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:09,580 DEBUG    [22899] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:09,580 DEBUG    [22900] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:09,580 DEBUG    [22899] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:09,580 DEBUG    [22897] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:09,580 DEBUG    [22898] (deoplete.child) Attribute: mark ([B])
+2019-01-06 00:08:09,580 DEBUG    [22900] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:09,580 DEBUG    [22899] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:09,580 DEBUG    [22900] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:09,580 DEBUG    [22899] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:09,580 DEBUG    [22897] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:09,580 DEBUG    [22898] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:09,580 DEBUG    [22899] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:09,580 DEBUG    [22900] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:09,580 DEBUG    [22897] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:09,580 DEBUG    [22898] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:09,580 DEBUG    [22899] (deoplete.child) Attribute: mark ([FI])
+2019-01-06 00:08:09,580 DEBUG    [22900] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:09,580 DEBUG    [22899] (deoplete.child) Attribute: matchers (['matcher_head'])
+2019-01-06 00:08:09,580 DEBUG    [22900] (deoplete.child) Attribute: mark ([look])
+2019-01-06 00:08:09,580 DEBUG    [22897] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:09,580 DEBUG    [22898] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:09,580 DEBUG    [22899] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:09,580 DEBUG    [22900] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:09,580 DEBUG    [22899] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:09,580 DEBUG    [22900] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:09,580 DEBUG    [22897] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:09,580 DEBUG    [22898] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:09,580 DEBUG    [22899] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:09,580 DEBUG    [22900] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:09,581 DEBUG    [22899] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:09,581 DEBUG    [22900] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:09,580 DEBUG    [22897] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:09,581 DEBUG    [22898] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:09,581 DEBUG    [22899] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:09,581 DEBUG    [22900] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:09,581 DEBUG    [22899] (deoplete.child) Attribute: min_pattern_length (0)
+2019-01-06 00:08:09,581 DEBUG    [22897] (deoplete.child) Attribute: min_pattern_length (1)
+2019-01-06 00:08:09,581 DEBUG    [22898] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:09,581 DEBUG    [22900] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:09,581 DEBUG    [22899] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:09,581 DEBUG    [22900] (deoplete.child) Attribute: min_pattern_length (4)
+2019-01-06 00:08:09,581 DEBUG    [22898] (deoplete.child) Attribute: min_pattern_length (2)
+2019-01-06 00:08:09,581 DEBUG    [22897] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:09,581 DEBUG    [22900] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:09,581 DEBUG    [22898] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:09,581 DEBUG    [22897] (deoplete.child) Set Source attributes: syntax
+2019-01-06 00:08:09,581 DEBUG    [22898] (deoplete.child) Set Source attributes: neosnippet
+2019-01-06 00:08:09,581 DEBUG    [22897] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:09,581 DEBUG    [22897] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:09,581 DEBUG    [22898] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:09,581 DEBUG    [22898] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:09,581 DEBUG    [22897] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:09,581 DEBUG    [22898] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:09,581 DEBUG    [22897] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:09,581 DEBUG    [22897] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:09,581 DEBUG    [22898] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:09,581 DEBUG    [22898] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:09,581 DEBUG    [22897] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:09,581 DEBUG    [22897] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:09,581 DEBUG    [22898] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:09,581 DEBUG    [22897] (deoplete.child) Attribute: mark ([S])
+2019-01-06 00:08:09,581 DEBUG    [22898] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:09,581 DEBUG    [22898] (deoplete.child) Attribute: mark ([ns])
+2019-01-06 00:08:09,581 DEBUG    [22897] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:09,581 DEBUG    [22897] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:09,581 DEBUG    [22898] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:09,581 DEBUG    [22897] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:09,581 DEBUG    [22898] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:09,582 DEBUG    [22897] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:09,582 DEBUG    [22898] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:09,582 DEBUG    [22897] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:09,582 DEBUG    [22898] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:09,582 DEBUG    [22897] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:09,582 DEBUG    [22898] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:09,582 DEBUG    [22897] (deoplete.child) Attribute: min_pattern_length (2)
+2019-01-06 00:08:09,582 DEBUG    [22898] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:09,582 DEBUG    [22898] (deoplete.child) Attribute: min_pattern_length (2)
+2019-01-06 00:08:09,582 DEBUG    [22897] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:09,582 DEBUG    [22898] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:09,586 DEBUG    [22886] (deoplete.core) completion_begin (Async): 'neovim.'
+2019-01-06 00:08:09,592 DEBUG    [22900] (deoplete.child) Profile Start: member
+2019-01-06 00:08:09,592 DEBUG    [22897] (deoplete.child) Profile Start: LanguageClient
+2019-01-06 00:08:09,597 DEBUG    [22897] (deoplete.child) Profile End  : LanguageClient            time=0.0005540000
+2019-01-06 00:08:09,597 DEBUG    [22900] (deoplete.child) Profile End  : member                    time=0.0010440000
+2019-01-06 00:08:09,613 DEBUG    [22886] (deoplete.core) do_complete (Async): 0 candidates, input=neovim., complete_position=-1, is_async=1
+2019-01-06 00:08:09,617 DEBUG    [22886] (deoplete.core) on_event: Async
+2019-01-06 00:08:09,618 DEBUG    [22886] (deoplete.core) completion_begin (TextChangedI): 'neovim.'
+2019-01-06 00:08:09,622 DEBUG    [22899] (deoplete.child) Set Source attributes: tag
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:09,623 DEBUG    [22900] (deoplete.child) Set Source attributes: around
+2019-01-06 00:08:09,623 DEBUG    [22897] (deoplete.child) Set Source attributes: file
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:09,623 DEBUG    [22897] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:09,623 DEBUG    [22900] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: mark ([T])
+2019-01-06 00:08:09,623 DEBUG    [22897] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:09,623 DEBUG    [22900] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:09,623 DEBUG    [22897] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:09,623 DEBUG    [22900] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:09,623 DEBUG    [22897] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:09,623 DEBUG    [22900] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:09,623 DEBUG    [22897] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:09,623 DEBUG    [22900] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: min_pattern_length (2)
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:09,623 DEBUG    [22897] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:09,623 DEBUG    [22900] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Set Source attributes: omni
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:09,623 DEBUG    [22897] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:09,623 DEBUG    [22900] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:09,623 DEBUG    [22897] (deoplete.child) Attribute: mark ([F])
+2019-01-06 00:08:09,623 DEBUG    [22900] (deoplete.child) Attribute: mark ()
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:09,623 DEBUG    [22897] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:09,623 DEBUG    [22900] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:09,623 DEBUG    [22900] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:09,623 DEBUG    [22897] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: mark ()
+2019-01-06 00:08:09,623 DEBUG    [22886] (deoplete.core) do_complete (Async): 0 candidates, input=ne, complete_position=-1, is_async=1
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:09,623 DEBUG    [22900] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:09,623 DEBUG    [22897] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:09,623 DEBUG    [22900] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:09,623 DEBUG    [22897] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:09,623 DEBUG    [22886] (deoplete.core) completion_begin (Async): 'neovim.'
+2019-01-06 00:08:09,623 DEBUG    [22897] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:09,623 DEBUG    [22900] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:09,623 DEBUG    [22899] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:09,623 DEBUG    [22900] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:09,623 DEBUG    [22897] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:09,624 DEBUG    [22899] (deoplete.child) Attribute: min_pattern_length (0)
+2019-01-06 00:08:09,624 DEBUG    [22899] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:09,624 DEBUG    [22897] (deoplete.child) Attribute: min_pattern_length (0)
+2019-01-06 00:08:09,624 DEBUG    [22900] (deoplete.child) Attribute: min_pattern_length (2)
+2019-01-06 00:08:09,624 DEBUG    [22899] (deoplete.child) Set Source attributes: file/include
+2019-01-06 00:08:09,624 DEBUG    [22899] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:09,624 DEBUG    [22900] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:09,624 DEBUG    [22897] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:09,624 DEBUG    [22899] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:09,624 DEBUG    [22899] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:09,624 DEBUG    [22897] (deoplete.child) Set Source attributes: LanguageClient
+2019-01-06 00:08:09,624 DEBUG    [22900] (deoplete.child) Set Source attributes: member
+2019-01-06 00:08:09,624 DEBUG    [22899] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:09,624 DEBUG    [22899] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:09,624 DEBUG    [22897] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:09,624 DEBUG    [22900] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:09,624 DEBUG    [22899] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:09,624 DEBUG    [22899] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:09,624 DEBUG    [22897] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:09,624 DEBUG    [22900] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:09,624 DEBUG    [22899] (deoplete.child) Attribute: mark ([FI])
+2019-01-06 00:08:09,624 DEBUG    [22897] (deoplete.child) Attribute: dup (True)
+2019-01-06 00:08:09,624 DEBUG    [22900] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:09,624 DEBUG    [22899] (deoplete.child) Attribute: matchers (['matcher_head'])
+2019-01-06 00:08:09,624 DEBUG    [22899] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:09,624 DEBUG    [22900] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:09,624 DEBUG    [22897] (deoplete.child) Attribute: filetypes (dict_keys(['rust', 'cpp', 'python']))
+2019-01-06 00:08:09,624 DEBUG    [22899] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:09,624 DEBUG    [22899] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:09,624 DEBUG    [22900] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:09,624 DEBUG    [22897] (deoplete.child) Attribute: input_pattern ((\.|::|->)\w*$)
+2019-01-06 00:08:09,624 DEBUG    [22899] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:09,624 DEBUG    [22900] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:09,624 DEBUG    [22897] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:09,624 DEBUG    [22899] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:09,624 DEBUG    [22899] (deoplete.child) Attribute: min_pattern_length (0)
+2019-01-06 00:08:09,624 DEBUG    [22900] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:09,624 DEBUG    [22897] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:09,624 DEBUG    [22899] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:09,624 DEBUG    [22900] (deoplete.child) Attribute: mark ([M])
+2019-01-06 00:08:09,624 DEBUG    [22897] (deoplete.child) Attribute: mark ([LC])
+2019-01-06 00:08:09,624 DEBUG    [22900] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:09,624 DEBUG    [22897] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:09,624 DEBUG    [22900] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:09,624 DEBUG    [22897] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:09,624 DEBUG    [22900] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:09,624 DEBUG    [22897] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:09,624 DEBUG    [22900] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:09,624 DEBUG    [22897] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:09,624 DEBUG    [22897] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:09,624 DEBUG    [22900] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:09,624 DEBUG    [22897] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:09,624 DEBUG    [22900] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:09,624 DEBUG    [22900] (deoplete.child) Attribute: min_pattern_length (0)
+2019-01-06 00:08:09,624 DEBUG    [22897] (deoplete.child) Attribute: min_pattern_length (1)
+2019-01-06 00:08:09,625 DEBUG    [22900] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:09,625 DEBUG    [22897] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:09,625 DEBUG    [22900] (deoplete.child) Set Source attributes: look
+2019-01-06 00:08:09,625 DEBUG    [22897] (deoplete.child) Set Source attributes: syntax
+2019-01-06 00:08:09,625 DEBUG    [22900] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:09,625 DEBUG    [22897] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:09,625 DEBUG    [22900] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:09,625 DEBUG    [22897] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:09,625 DEBUG    [22900] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:09,625 DEBUG    [22897] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:09,625 DEBUG    [22897] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:09,625 DEBUG    [22900] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:09,625 DEBUG    [22900] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:09,625 DEBUG    [22897] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:09,625 DEBUG    [22900] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:09,625 DEBUG    [22897] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:09,625 DEBUG    [22886] (deoplete.core) do_complete (TextChangedI): 0 candidates, input=neovim., complete_position=-1, is_async=1
+2019-01-06 00:08:09,625 DEBUG    [22900] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:09,625 DEBUG    [22897] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:09,625 DEBUG    [22897] (deoplete.child) Attribute: mark ([S])
+2019-01-06 00:08:09,625 DEBUG    [22900] (deoplete.child) Attribute: mark ([look])
+2019-01-06 00:08:09,625 DEBUG    [22897] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:09,625 DEBUG    [22900] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:09,625 DEBUG    [22897] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:09,625 DEBUG    [22900] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:09,625 DEBUG    [22897] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:09,625 DEBUG    [22900] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:09,625 DEBUG    [22897] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:09,625 DEBUG    [22900] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:09,625 DEBUG    [22897] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:09,625 DEBUG    [22900] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:09,625 DEBUG    [22897] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:09,625 DEBUG    [22900] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:09,625 DEBUG    [22900] (deoplete.child) Attribute: min_pattern_length (4)
+2019-01-06 00:08:09,625 DEBUG    [22897] (deoplete.child) Attribute: min_pattern_length (2)
+2019-01-06 00:08:09,625 DEBUG    [22900] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:09,625 DEBUG    [22897] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:09,628 DEBUG    [22886] (deoplete.core) do_complete (Async): 0 candidates, input=neovim., complete_position=-1, is_async=1
+2019-01-06 00:08:09,632 DEBUG    [22898] (deoplete.child) Profile Start: dictionary
+2019-01-06 00:08:09,636 DEBUG    [22898] (deoplete.child) Profile End  : dictionary                time=0.0010390000
+2019-01-06 00:08:09,636 DEBUG    [22898] (deoplete.child) Profile Start: buffer
+2019-01-06 00:08:09,637 DEBUG    [22898] (deoplete.child) Profile End  : buffer                    time=0.0003740000
+2019-01-06 00:08:09,637 DEBUG    [22898] (deoplete.child) Profile Start: neosnippet
+2019-01-06 00:08:09,637 DEBUG    [22898] (deoplete.child) Profile End  : neosnippet                time=0.0000110000
+2019-01-06 00:08:09,638 DEBUG    [22898] (deoplete.child) Profile Start: matcher_full_fuzzy
+2019-01-06 00:08:09,638 DEBUG    [22898] (deoplete.child) Profile End  : matcher_full_fuzzy        time=0.0000040000
+2019-01-06 00:08:09,638 DEBUG    [22898] (deoplete.child) Profile Start: sorter_rank
+2019-01-06 00:08:09,638 DEBUG    [22898] (deoplete.child) Profile End  : sorter_rank               time=0.0000070000
+2019-01-06 00:08:09,638 DEBUG    [22898] (deoplete.child) Profile Start: converter_remove_overlap
+2019-01-06 00:08:09,638 DEBUG    [22898] (deoplete.child) Profile End  : converter_remove_overlap  time=0.0000040000
+2019-01-06 00:08:09,638 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_abbr
+2019-01-06 00:08:09,638 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_abbr   time=0.0000050000
+2019-01-06 00:08:09,638 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_kind
+2019-01-06 00:08:09,638 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_kind   time=0.0000030000
+2019-01-06 00:08:09,638 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_menu
+2019-01-06 00:08:09,638 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_menu   time=0.0000030000
+2019-01-06 00:08:09,638 DEBUG    [22898] (deoplete.child) Profile Start: matcher_full_fuzzy
+2019-01-06 00:08:09,638 DEBUG    [22898] (deoplete.child) Profile End  : matcher_full_fuzzy        time=0.0000360000
+2019-01-06 00:08:09,638 DEBUG    [22898] (deoplete.child) Profile Start: sorter_rank
+2019-01-06 00:08:09,638 DEBUG    [22898] (deoplete.child) Profile End  : sorter_rank               time=0.0000070000
+2019-01-06 00:08:09,638 DEBUG    [22898] (deoplete.child) Profile Start: converter_remove_overlap
+2019-01-06 00:08:09,638 DEBUG    [22898] (deoplete.child) Profile End  : converter_remove_overlap  time=0.0000030000
+2019-01-06 00:08:09,638 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_abbr
+2019-01-06 00:08:09,638 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_abbr   time=0.0000050000
+2019-01-06 00:08:09,638 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_kind
+2019-01-06 00:08:09,639 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_kind   time=0.0000030000
+2019-01-06 00:08:09,639 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_menu
+2019-01-06 00:08:09,639 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_menu   time=0.0000030000
+2019-01-06 00:08:09,641 DEBUG    [22898] (deoplete.child) Profile Start: matcher_full_fuzzy
+2019-01-06 00:08:09,641 DEBUG    [22898] (deoplete.child) Profile End  : matcher_full_fuzzy        time=0.0000880000
+2019-01-06 00:08:09,641 DEBUG    [22898] (deoplete.child) Profile Start: sorter_rank
+2019-01-06 00:08:09,641 DEBUG    [22898] (deoplete.child) Profile End  : sorter_rank               time=0.0000130000
+2019-01-06 00:08:09,641 DEBUG    [22898] (deoplete.child) Profile Start: converter_remove_overlap
+2019-01-06 00:08:09,641 DEBUG    [22898] (deoplete.child) Profile End  : converter_remove_overlap  time=0.0000040000
+2019-01-06 00:08:09,641 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_abbr
+2019-01-06 00:08:09,642 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_abbr   time=0.0000210000
+2019-01-06 00:08:09,642 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_kind
+2019-01-06 00:08:09,642 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_kind   time=0.0000040000
+2019-01-06 00:08:09,642 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_menu
+2019-01-06 00:08:09,642 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_menu   time=0.0000270000
+2019-01-06 00:08:09,642 DEBUG    [22898] (deoplete.child) Set Source attributes: dictionary
+2019-01-06 00:08:09,642 DEBUG    [22898] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:09,642 DEBUG    [22898] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:09,642 DEBUG    [22898] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:09,642 DEBUG    [22898] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:09,642 DEBUG    [22898] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:09,642 DEBUG    [22898] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:09,642 DEBUG    [22898] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:09,642 DEBUG    [22898] (deoplete.child) Attribute: mark ([D])
+2019-01-06 00:08:09,642 DEBUG    [22898] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:09,642 DEBUG    [22898] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:09,642 DEBUG    [22898] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:09,642 DEBUG    [22898] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:09,642 DEBUG    [22898] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:09,642 DEBUG    [22898] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:09,642 DEBUG    [22898] (deoplete.child) Attribute: min_pattern_length (2)
+2019-01-06 00:08:09,642 DEBUG    [22898] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:09,642 DEBUG    [22898] (deoplete.child) Set Source attributes: buffer
+2019-01-06 00:08:09,642 DEBUG    [22898] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:09,642 DEBUG    [22898] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:09,642 DEBUG    [22898] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: mark ([B])
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: min_pattern_length (2)
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Set Source attributes: neosnippet
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: converters (['converter_remove_overlap', 'converter_truncate_abbr', 'converter_truncate_kind', 'converter_truncate_menu'])
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: disabled_syntaxes ([])
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: dup (False)
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: filetypes ([])
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: input_pattern ()
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: is_debug_enabled (False)
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: is_silent (False)
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: mark ([ns])
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: matchers (['matcher_full_fuzzy'])
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: max_abbr_width (80)
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: max_candidates (500)
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: max_kind_width (40)
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: max_menu_width (40)
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: max_pattern_length (80)
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: min_pattern_length (2)
+2019-01-06 00:08:09,643 DEBUG    [22898] (deoplete.child) Attribute: sorters (['sorter_rank'])
+2019-01-06 00:08:09,654 DEBUG    [22886] (deoplete.core) completion_begin (Async): 'neovim.'
+2019-01-06 00:08:09,659 DEBUG    [22886] (deoplete.core) do_complete (Async): 12 candidates, input=neovim., complete_position=0, is_async=0
+2019-01-06 00:08:17,394 DEBUG    [22886] (deoplete.core) on_event: InsertEnter
+2019-01-06 00:08:17,395 DEBUG    [22886] (deoplete.core) completion_begin (InsertEnter): ''
+2019-01-06 00:08:17,404 DEBUG    [22886] (deoplete.core) do_complete (InsertEnter): 0 candidates, input=, complete_position=-1, is_async=1
+2019-01-06 00:08:17,426 DEBUG    [22886] (deoplete.core) completion_begin (Async): ''
+2019-01-06 00:08:17,430 DEBUG    [22886] (deoplete.core) do_complete (Async): 0 candidates, input=, complete_position=-1, is_async=0
+2019-01-06 00:08:17,710 DEBUG    [22886] (deoplete.core) completion_begin (TextChangedI): 'i'
+2019-01-06 00:08:17,721 DEBUG    [22886] (deoplete.core) do_complete (TextChangedI): 0 candidates, input=i, complete_position=-1, is_async=1
+2019-01-06 00:08:17,722 DEBUG    [22897] (deoplete.child) Profile Start: LanguageClient
+2019-01-06 00:08:17,725 DEBUG    [22897] (deoplete.child) Profile End  : LanguageClient            time=0.0005720000
+2019-01-06 00:08:17,743 DEBUG    [22886] (deoplete.core) completion_begin (Async): 'i'
+2019-01-06 00:08:17,747 DEBUG    [22886] (deoplete.core) do_complete (Async): 0 candidates, input=i, complete_position=-1, is_async=1
+2019-01-06 00:08:17,773 DEBUG    [22886] (deoplete.core) completion_begin (Async): 'i'
+2019-01-06 00:08:17,777 DEBUG    [22886] (deoplete.core) do_complete (Async): 0 candidates, input=i, complete_position=-1, is_async=1
+2019-01-06 00:08:17,804 DEBUG    [22886] (deoplete.core) completion_begin (Async): 'i'
+2019-01-06 00:08:17,808 DEBUG    [22886] (deoplete.core) do_complete (Async): 0 candidates, input=i, complete_position=-1, is_async=0
+2019-01-06 00:08:17,941 DEBUG    [22886] (deoplete.core) completion_begin (TextChangedI): 'im'
+2019-01-06 00:08:17,950 DEBUG    [22900] (deoplete.child) Profile Start: around
+2019-01-06 00:08:17,950 DEBUG    [22898] (deoplete.child) Profile Start: dictionary
+2019-01-06 00:08:17,950 DEBUG    [22899] (deoplete.child) Profile Start: tag
+2019-01-06 00:08:17,951 DEBUG    [22886] (deoplete.core) do_complete (TextChangedI): 0 candidates, input=im, complete_position=-1, is_async=1
+2019-01-06 00:08:18,000 DEBUG    [22897] (deoplete.child) Profile Start: LanguageClient
+2019-01-06 00:08:18,000 DEBUG    [22900] (deoplete.child) Profile End  : around                    time=0.0011240000
+2019-01-06 00:08:18,001 DEBUG    [22900] (deoplete.child) Profile Start: matcher_full_fuzzy
+2019-01-06 00:08:18,001 DEBUG    [22900] (deoplete.child) Profile End  : matcher_full_fuzzy        time=0.0001180000
+2019-01-06 00:08:18,001 DEBUG    [22900] (deoplete.child) Profile Start: sorter_rank
+2019-01-06 00:08:18,002 DEBUG    [22900] (deoplete.child) Profile End  : sorter_rank               time=0.0000100000
+2019-01-06 00:08:18,002 DEBUG    [22900] (deoplete.child) Profile Start: converter_remove_overlap
+2019-01-06 00:08:18,002 DEBUG    [22900] (deoplete.child) Profile End  : converter_remove_overlap  time=0.0000030000
+2019-01-06 00:08:18,002 DEBUG    [22900] (deoplete.child) Profile Start: converter_truncate_abbr
+2019-01-06 00:08:18,002 DEBUG    [22900] (deoplete.child) Profile End  : converter_truncate_abbr   time=0.0000070000
+2019-01-06 00:08:18,002 DEBUG    [22900] (deoplete.child) Profile Start: converter_truncate_kind
+2019-01-06 00:08:18,002 DEBUG    [22900] (deoplete.child) Profile End  : converter_truncate_kind   time=0.0000040000
+2019-01-06 00:08:18,002 DEBUG    [22900] (deoplete.child) Profile Start: converter_truncate_menu
+2019-01-06 00:08:18,002 DEBUG    [22900] (deoplete.child) Profile End  : converter_truncate_menu   time=0.0000060000
+2019-01-06 00:08:18,002 DEBUG    [22897] (deoplete.child) Profile End  : LanguageClient            time=0.0004950000
+2019-01-06 00:08:18,002 DEBUG    [22899] (deoplete.child) Profile End  : tag                       time=0.0013630000
+2019-01-06 00:08:18,002 DEBUG    [22897] (deoplete.child) Profile Start: syntax
+2019-01-06 00:08:18,002 DEBUG    [22897] (deoplete.child) Profile End  : syntax                    time=0.0000040000
+2019-01-06 00:08:18,004 DEBUG    [22898] (deoplete.child) Profile End  : dictionary                time=0.0018580000
+2019-01-06 00:08:18,004 DEBUG    [22898] (deoplete.child) Profile Start: buffer
+2019-01-06 00:08:18,005 DEBUG    [22897] (deoplete.child) Profile Start: matcher_full_fuzzy
+2019-01-06 00:08:18,005 DEBUG    [22897] (deoplete.child) Profile End  : matcher_full_fuzzy        time=0.0001770000
+2019-01-06 00:08:18,005 DEBUG    [22897] (deoplete.child) Profile Start: sorter_rank
+2019-01-06 00:08:18,005 DEBUG    [22897] (deoplete.child) Profile End  : sorter_rank               time=0.0000170000
+2019-01-06 00:08:18,005 DEBUG    [22897] (deoplete.child) Profile Start: converter_remove_overlap
+2019-01-06 00:08:18,005 DEBUG    [22897] (deoplete.child) Profile End  : converter_remove_overlap  time=0.0000040000
+2019-01-06 00:08:18,005 DEBUG    [22897] (deoplete.child) Profile Start: converter_truncate_abbr
+2019-01-06 00:08:18,005 DEBUG    [22897] (deoplete.child) Profile End  : converter_truncate_abbr   time=0.0000100000
+2019-01-06 00:08:18,005 DEBUG    [22897] (deoplete.child) Profile Start: converter_truncate_kind
+2019-01-06 00:08:18,005 DEBUG    [22897] (deoplete.child) Profile End  : converter_truncate_kind   time=0.0000030000
+2019-01-06 00:08:18,005 DEBUG    [22897] (deoplete.child) Profile Start: converter_truncate_menu
+2019-01-06 00:08:18,005 DEBUG    [22897] (deoplete.child) Profile End  : converter_truncate_menu   time=0.0000040000
+2019-01-06 00:08:18,006 DEBUG    [22898] (deoplete.child) Profile End  : buffer                    time=0.0004010000
+2019-01-06 00:08:18,006 DEBUG    [22898] (deoplete.child) Profile Start: neosnippet
+2019-01-06 00:08:18,006 DEBUG    [22898] (deoplete.child) Profile End  : neosnippet                time=0.0000110000
+2019-01-06 00:08:18,006 DEBUG    [22898] (deoplete.child) Profile Start: matcher_full_fuzzy
+2019-01-06 00:08:18,006 DEBUG    [22898] (deoplete.child) Profile End  : matcher_full_fuzzy        time=0.0000050000
+2019-01-06 00:08:18,006 DEBUG    [22898] (deoplete.child) Profile Start: sorter_rank
+2019-01-06 00:08:18,007 DEBUG    [22898] (deoplete.child) Profile End  : sorter_rank               time=0.0000070000
+2019-01-06 00:08:18,007 DEBUG    [22898] (deoplete.child) Profile Start: converter_remove_overlap
+2019-01-06 00:08:18,007 DEBUG    [22898] (deoplete.child) Profile End  : converter_remove_overlap  time=0.0000040000
+2019-01-06 00:08:18,007 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_abbr
+2019-01-06 00:08:18,007 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_abbr   time=0.0000050000
+2019-01-06 00:08:18,007 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_kind
+2019-01-06 00:08:18,007 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_kind   time=0.0000040000
+2019-01-06 00:08:18,007 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_menu
+2019-01-06 00:08:18,007 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_menu   time=0.0000040000
+2019-01-06 00:08:18,007 DEBUG    [22898] (deoplete.child) Profile Start: matcher_full_fuzzy
+2019-01-06 00:08:18,007 DEBUG    [22898] (deoplete.child) Profile End  : matcher_full_fuzzy        time=0.0001250000
+2019-01-06 00:08:18,007 DEBUG    [22898] (deoplete.child) Profile Start: sorter_rank
+2019-01-06 00:08:18,007 DEBUG    [22898] (deoplete.child) Profile End  : sorter_rank               time=0.0000090000
+2019-01-06 00:08:18,007 DEBUG    [22898] (deoplete.child) Profile Start: converter_remove_overlap
+2019-01-06 00:08:18,007 DEBUG    [22898] (deoplete.child) Profile End  : converter_remove_overlap  time=0.0000040000
+2019-01-06 00:08:18,007 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_abbr
+2019-01-06 00:08:18,007 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_abbr   time=0.0000060000
+2019-01-06 00:08:18,007 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_kind
+2019-01-06 00:08:18,008 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_kind   time=0.0000040000
+2019-01-06 00:08:18,008 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_menu
+2019-01-06 00:08:18,008 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_menu   time=0.0000040000
+2019-01-06 00:08:18,009 DEBUG    [22886] (deoplete.core) completion_begin (Async): 'im'
+2019-01-06 00:08:18,011 DEBUG    [22898] (deoplete.child) Profile Start: matcher_full_fuzzy
+2019-01-06 00:08:18,011 DEBUG    [22898] (deoplete.child) Profile End  : matcher_full_fuzzy        time=0.0001610000
+2019-01-06 00:08:18,011 DEBUG    [22898] (deoplete.child) Profile Start: sorter_rank
+2019-01-06 00:08:18,011 DEBUG    [22898] (deoplete.child) Profile End  : sorter_rank               time=0.0000430000
+2019-01-06 00:08:18,011 DEBUG    [22898] (deoplete.child) Profile Start: converter_remove_overlap
+2019-01-06 00:08:18,011 DEBUG    [22898] (deoplete.child) Profile End  : converter_remove_overlap  time=0.0000050000
+2019-01-06 00:08:18,011 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_abbr
+2019-01-06 00:08:18,011 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_abbr   time=0.0000100000
+2019-01-06 00:08:18,012 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_kind
+2019-01-06 00:08:18,012 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_kind   time=0.0000250000
+2019-01-06 00:08:18,012 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_menu
+2019-01-06 00:08:18,012 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_menu   time=0.0000080000
+2019-01-06 00:08:18,016 DEBUG    [22886] (deoplete.core) do_complete (Async): 17 candidates, input=im, complete_position=0, is_async=1
+2019-01-06 00:08:18,665 DEBUG    [22886] (deoplete.core) completion_begin (Async): 'import '
+2019-01-06 00:08:18,676 DEBUG    [22899] (deoplete.child) Profile Start: file/include
+2019-01-06 00:08:18,758 DEBUG    [22899] (deoplete.child) Profile End  : file/include              time=0.0077580000
+2019-01-06 00:08:18,759 DEBUG    [22886] (deoplete.core) completion_begin (TextChangedI): 'import '
+2019-01-06 00:08:18,759 DEBUG    [22886] (deoplete.core) completion_begin (Async): 'import '
+2019-01-06 00:08:18,761 DEBUG    [22886] (deoplete.core) completion_begin (Async): 'import s'
+2019-01-06 00:08:18,762 DEBUG    [22899] (deoplete.child) Profile Start: matcher_head
+2019-01-06 00:08:18,763 DEBUG    [22899] (deoplete.child) Profile End  : matcher_head              time=0.0001610000
+2019-01-06 00:08:18,763 DEBUG    [22899] (deoplete.child) Profile Start: sorter_rank
+2019-01-06 00:08:18,763 DEBUG    [22899] (deoplete.child) Profile End  : sorter_rank               time=0.0002220000
+2019-01-06 00:08:18,763 DEBUG    [22899] (deoplete.child) Profile Start: converter_remove_overlap
+2019-01-06 00:08:18,763 DEBUG    [22899] (deoplete.child) Profile End  : converter_remove_overlap  time=0.0000100000
+2019-01-06 00:08:18,763 DEBUG    [22899] (deoplete.child) Profile Start: converter_truncate_abbr
+2019-01-06 00:08:18,764 DEBUG    [22899] (deoplete.child) Profile End  : converter_truncate_abbr   time=0.0003490000
+2019-01-06 00:08:18,764 DEBUG    [22899] (deoplete.child) Profile Start: converter_truncate_kind
+2019-01-06 00:08:18,764 DEBUG    [22899] (deoplete.child) Profile End  : converter_truncate_kind   time=0.0001380000
+2019-01-06 00:08:18,764 DEBUG    [22899] (deoplete.child) Profile Start: converter_truncate_menu
+2019-01-06 00:08:18,764 DEBUG    [22899] (deoplete.child) Profile End  : converter_truncate_menu   time=0.0000100000
+2019-01-06 00:08:18,764 DEBUG    [22886] (deoplete.core) do_complete (TextChangedI): 0 candidates, input=import , complete_position=-1, is_async=1
+2019-01-06 00:08:18,765 DEBUG    [22886] (deoplete.core) do_complete (Async): 0 candidates, input=import , complete_position=-1, is_async=1
+2019-01-06 00:08:18,767 DEBUG    [22886] (deoplete.core) do_complete (Async): 0 candidates, input=import s, complete_position=-1, is_async=1
+2019-01-06 00:08:18,775 DEBUG    [22899] (deoplete.child) Profile Start: matcher_head
+2019-01-06 00:08:18,775 DEBUG    [22899] (deoplete.child) Profile End  : matcher_head              time=0.0001300000
+2019-01-06 00:08:18,776 DEBUG    [22899] (deoplete.child) Profile Start: sorter_rank
+2019-01-06 00:08:18,776 DEBUG    [22899] (deoplete.child) Profile End  : sorter_rank               time=0.0002040000
+2019-01-06 00:08:18,776 DEBUG    [22899] (deoplete.child) Profile Start: converter_remove_overlap
+2019-01-06 00:08:18,776 DEBUG    [22899] (deoplete.child) Profile End  : converter_remove_overlap  time=0.0000060000
+2019-01-06 00:08:18,776 DEBUG    [22899] (deoplete.child) Profile Start: converter_truncate_abbr
+2019-01-06 00:08:18,776 DEBUG    [22899] (deoplete.child) Profile End  : converter_truncate_abbr   time=0.0001940000
+2019-01-06 00:08:18,776 DEBUG    [22899] (deoplete.child) Profile Start: converter_truncate_kind
+2019-01-06 00:08:18,776 DEBUG    [22899] (deoplete.child) Profile End  : converter_truncate_kind   time=0.0001320000
+2019-01-06 00:08:18,776 DEBUG    [22899] (deoplete.child) Profile Start: converter_truncate_menu
+2019-01-06 00:08:18,776 DEBUG    [22899] (deoplete.child) Profile End  : converter_truncate_menu   time=0.0000050000
+2019-01-06 00:08:18,793 DEBUG    [22886] (deoplete.core) completion_begin (Async): 'import s'
+2019-01-06 00:08:18,805 DEBUG    [22886] (deoplete.core) do_complete (Async): 500 candidates, input=import s, complete_position=7, is_async=0
+2019-01-06 00:08:28,281 DEBUG    [22886] (deoplete.core) on_event: InsertEnter
+2019-01-06 00:08:28,285 DEBUG    [22886] (deoplete.core) completion_begin (TextChangedI): ''
+2019-01-06 00:08:28,293 DEBUG    [22886] (deoplete.core) do_complete (TextChangedI): 0 candidates, input=, complete_position=-1, is_async=1
+2019-01-06 00:08:28,317 DEBUG    [22886] (deoplete.core) completion_begin (Async): ''
+2019-01-06 00:08:28,322 DEBUG    [22886] (deoplete.core) do_complete (Async): 0 candidates, input=, complete_position=-1, is_async=0
+2019-01-06 00:08:29,386 DEBUG    [22886] (deoplete.core) completion_begin (TextChangedI): 'i'
+2019-01-06 00:08:29,399 DEBUG    [22886] (deoplete.core) do_complete (TextChangedI): 0 candidates, input=i, complete_position=-1, is_async=1
+2019-01-06 00:08:29,401 DEBUG    [22897] (deoplete.child) Profile Start: LanguageClient
+2019-01-06 00:08:29,403 DEBUG    [22897] (deoplete.child) Profile End  : LanguageClient            time=0.0005860000
+2019-01-06 00:08:29,420 DEBUG    [22886] (deoplete.core) completion_begin (Async): 'i'
+2019-01-06 00:08:29,425 DEBUG    [22886] (deoplete.core) do_complete (Async): 0 candidates, input=i, complete_position=-1, is_async=1
+2019-01-06 00:08:29,469 DEBUG    [22886] (deoplete.core) completion_begin (Async): 'i'
+2019-01-06 00:08:29,481 DEBUG    [22886] (deoplete.core) do_complete (Async): 0 candidates, input=i, complete_position=-1, is_async=1
+2019-01-06 00:08:29,483 DEBUG    [22886] (deoplete.core) completion_begin (Async): 'i'
+2019-01-06 00:08:29,490 DEBUG    [22886] (deoplete.core) do_complete (Async): 0 candidates, input=i, complete_position=-1, is_async=0
+2019-01-06 00:08:29,591 DEBUG    [22886] (deoplete.core) completion_begin (TextChangedI): 'im'
+2019-01-06 00:08:29,600 DEBUG    [22886] (deoplete.core) do_complete (TextChangedI): 0 candidates, input=im, complete_position=-1, is_async=1
+2019-01-06 00:08:29,600 DEBUG    [22900] (deoplete.child) Profile Start: around
+2019-01-06 00:08:29,601 DEBUG    [22898] (deoplete.child) Profile Start: dictionary
+2019-01-06 00:08:29,601 DEBUG    [22899] (deoplete.child) Profile Start: tag
+2019-01-06 00:08:29,647 DEBUG    [22897] (deoplete.child) Profile Start: LanguageClient
+2019-01-06 00:08:29,649 DEBUG    [22900] (deoplete.child) Profile End  : around                    time=0.0011850000
+2019-01-06 00:08:29,650 DEBUG    [22899] (deoplete.child) Profile End  : tag                       time=0.0012350000
+2019-01-06 00:08:29,650 DEBUG    [22897] (deoplete.child) Profile End  : LanguageClient            time=0.0005860000
+2019-01-06 00:08:29,650 DEBUG    [22900] (deoplete.child) Profile Start: matcher_full_fuzzy
+2019-01-06 00:08:29,650 DEBUG    [22897] (deoplete.child) Profile Start: syntax
+2019-01-06 00:08:29,650 DEBUG    [22900] (deoplete.child) Profile End  : matcher_full_fuzzy        time=0.0000380000
+2019-01-06 00:08:29,650 DEBUG    [22897] (deoplete.child) Profile End  : syntax                    time=0.0000070000
+2019-01-06 00:08:29,650 DEBUG    [22900] (deoplete.child) Profile Start: sorter_rank
+2019-01-06 00:08:29,651 DEBUG    [22900] (deoplete.child) Profile End  : sorter_rank               time=0.0000120000
+2019-01-06 00:08:29,651 DEBUG    [22900] (deoplete.child) Profile Start: converter_remove_overlap
+2019-01-06 00:08:29,651 DEBUG    [22900] (deoplete.child) Profile End  : converter_remove_overlap  time=0.0000040000
+2019-01-06 00:08:29,651 DEBUG    [22900] (deoplete.child) Profile Start: converter_truncate_abbr
+2019-01-06 00:08:29,651 DEBUG    [22900] (deoplete.child) Profile End  : converter_truncate_abbr   time=0.0000070000
+2019-01-06 00:08:29,651 DEBUG    [22900] (deoplete.child) Profile Start: converter_truncate_kind
+2019-01-06 00:08:29,651 DEBUG    [22900] (deoplete.child) Profile End  : converter_truncate_kind   time=0.0000040000
+2019-01-06 00:08:29,651 DEBUG    [22900] (deoplete.child) Profile Start: converter_truncate_menu
+2019-01-06 00:08:29,651 DEBUG    [22900] (deoplete.child) Profile End  : converter_truncate_menu   time=0.0000060000
+2019-01-06 00:08:29,651 DEBUG    [22898] (deoplete.child) Profile End  : dictionary                time=0.0016800000
+2019-01-06 00:08:29,651 DEBUG    [22898] (deoplete.child) Profile Start: buffer
+2019-01-06 00:08:29,652 DEBUG    [22897] (deoplete.child) Profile Start: matcher_full_fuzzy
+2019-01-06 00:08:29,652 DEBUG    [22897] (deoplete.child) Profile End  : matcher_full_fuzzy        time=0.0001370000
+2019-01-06 00:08:29,653 DEBUG    [22897] (deoplete.child) Profile Start: sorter_rank
+2019-01-06 00:08:29,653 DEBUG    [22897] (deoplete.child) Profile End  : sorter_rank               time=0.0000280000
+2019-01-06 00:08:29,653 DEBUG    [22897] (deoplete.child) Profile Start: converter_remove_overlap
+2019-01-06 00:08:29,653 DEBUG    [22897] (deoplete.child) Profile End  : converter_remove_overlap  time=0.0000070000
+2019-01-06 00:08:29,653 DEBUG    [22897] (deoplete.child) Profile Start: converter_truncate_abbr
+2019-01-06 00:08:29,653 DEBUG    [22897] (deoplete.child) Profile End  : converter_truncate_abbr   time=0.0000380000
+2019-01-06 00:08:29,653 DEBUG    [22897] (deoplete.child) Profile Start: converter_truncate_kind
+2019-01-06 00:08:29,653 DEBUG    [22897] (deoplete.child) Profile End  : converter_truncate_kind   time=0.0000070000
+2019-01-06 00:08:29,653 DEBUG    [22897] (deoplete.child) Profile Start: converter_truncate_menu
+2019-01-06 00:08:29,653 DEBUG    [22897] (deoplete.child) Profile End  : converter_truncate_menu   time=0.0000070000
+2019-01-06 00:08:29,654 DEBUG    [22898] (deoplete.child) Profile End  : buffer                    time=0.0004470000
+2019-01-06 00:08:29,655 DEBUG    [22898] (deoplete.child) Profile Start: neosnippet
+2019-01-06 00:08:29,655 DEBUG    [22898] (deoplete.child) Profile End  : neosnippet                time=0.0000170000
+2019-01-06 00:08:29,655 DEBUG    [22898] (deoplete.child) Profile Start: matcher_full_fuzzy
+2019-01-06 00:08:29,655 DEBUG    [22898] (deoplete.child) Profile End  : matcher_full_fuzzy        time=0.0000070000
+2019-01-06 00:08:29,655 DEBUG    [22898] (deoplete.child) Profile Start: sorter_rank
+2019-01-06 00:08:29,656 DEBUG    [22898] (deoplete.child) Profile End  : sorter_rank               time=0.0000110000
+2019-01-06 00:08:29,656 DEBUG    [22898] (deoplete.child) Profile Start: converter_remove_overlap
+2019-01-06 00:08:29,656 DEBUG    [22898] (deoplete.child) Profile End  : converter_remove_overlap  time=0.0000070000
+2019-01-06 00:08:29,656 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_abbr
+2019-01-06 00:08:29,656 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_abbr   time=0.0000070000
+2019-01-06 00:08:29,656 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_kind
+2019-01-06 00:08:29,656 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_kind   time=0.0000070000
+2019-01-06 00:08:29,656 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_menu
+2019-01-06 00:08:29,656 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_menu   time=0.0000060000
+2019-01-06 00:08:29,656 DEBUG    [22898] (deoplete.child) Profile Start: matcher_full_fuzzy
+2019-01-06 00:08:29,657 DEBUG    [22898] (deoplete.child) Profile End  : matcher_full_fuzzy        time=0.0000740000
+2019-01-06 00:08:29,657 DEBUG    [22898] (deoplete.child) Profile Start: sorter_rank
+2019-01-06 00:08:29,657 DEBUG    [22898] (deoplete.child) Profile End  : sorter_rank               time=0.0000130000
+2019-01-06 00:08:29,657 DEBUG    [22898] (deoplete.child) Profile Start: converter_remove_overlap
+2019-01-06 00:08:29,657 DEBUG    [22898] (deoplete.child) Profile End  : converter_remove_overlap  time=0.0000070000
+2019-01-06 00:08:29,657 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_abbr
+2019-01-06 00:08:29,657 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_abbr   time=0.0000090000
+2019-01-06 00:08:29,657 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_kind
+2019-01-06 00:08:29,657 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_kind   time=0.0000060000
+2019-01-06 00:08:29,657 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_menu
+2019-01-06 00:08:29,657 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_menu   time=0.0000070000
+2019-01-06 00:08:29,660 DEBUG    [22886] (deoplete.core) completion_begin (Async): 'im'
+2019-01-06 00:08:29,663 DEBUG    [22898] (deoplete.child) Profile Start: matcher_full_fuzzy
+2019-01-06 00:08:29,663 DEBUG    [22898] (deoplete.child) Profile End  : matcher_full_fuzzy        time=0.0002680000
+2019-01-06 00:08:29,664 DEBUG    [22898] (deoplete.child) Profile Start: sorter_rank
+2019-01-06 00:08:29,664 DEBUG    [22898] (deoplete.child) Profile End  : sorter_rank               time=0.0000690000
+2019-01-06 00:08:29,664 DEBUG    [22898] (deoplete.child) Profile Start: converter_remove_overlap
+2019-01-06 00:08:29,664 DEBUG    [22898] (deoplete.child) Profile End  : converter_remove_overlap  time=0.0000080000
+2019-01-06 00:08:29,664 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_abbr
+2019-01-06 00:08:29,664 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_abbr   time=0.0000220000
+2019-01-06 00:08:29,664 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_kind
+2019-01-06 00:08:29,664 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_kind   time=0.0000080000
+2019-01-06 00:08:29,664 DEBUG    [22898] (deoplete.child) Profile Start: converter_truncate_menu
+2019-01-06 00:08:29,664 DEBUG    [22898] (deoplete.child) Profile End  : converter_truncate_menu   time=0.0000160000
+2019-01-06 00:08:29,668 DEBUG    [22886] (deoplete.core) do_complete (Async): 19 candidates, input=im, complete_position=0, is_async=1
+2019-01-06 00:08:30,392 DEBUG    [22886] (deoplete.core) completion_begin (Async): 'import '
+2019-01-06 00:08:30,404 DEBUG    [22899] (deoplete.child) Profile Start: file/include
+2019-01-06 00:08:30,480 DEBUG    [22899] (deoplete.child) Profile End  : file/include              time=0.0068640000
+2019-01-06 00:08:30,483 DEBUG    [22886] (deoplete.core) completion_begin (TextChangedI): 'import '
+2019-01-06 00:08:30,483 DEBUG    [22886] (deoplete.core) completion_begin (Async): 'import '
+2019-01-06 00:08:30,484 DEBUG    [22899] (deoplete.child) Profile Start: matcher_head
+2019-01-06 00:08:30,484 DEBUG    [22899] (deoplete.child) Profile End  : matcher_head              time=0.0001600000
+2019-01-06 00:08:30,484 DEBUG    [22899] (deoplete.child) Profile Start: sorter_rank
+2019-01-06 00:08:30,484 DEBUG    [22899] (deoplete.child) Profile End  : sorter_rank               time=0.0002520000
+2019-01-06 00:08:30,484 DEBUG    [22899] (deoplete.child) Profile Start: converter_remove_overlap
+2019-01-06 00:08:30,484 DEBUG    [22899] (deoplete.child) Profile End  : converter_remove_overlap  time=0.0000060000
+2019-01-06 00:08:30,484 DEBUG    [22899] (deoplete.child) Profile Start: converter_truncate_abbr
+2019-01-06 00:08:30,485 DEBUG    [22899] (deoplete.child) Profile End  : converter_truncate_abbr   time=0.0001950000
+2019-01-06 00:08:30,485 DEBUG    [22899] (deoplete.child) Profile Start: converter_truncate_kind
+2019-01-06 00:08:30,485 DEBUG    [22899] (deoplete.child) Profile End  : converter_truncate_kind   time=0.0001320000
+2019-01-06 00:08:30,485 DEBUG    [22899] (deoplete.child) Profile Start: converter_truncate_menu
+2019-01-06 00:08:30,485 DEBUG    [22899] (deoplete.child) Profile End  : converter_truncate_menu   time=0.0000050000
+2019-01-06 00:08:30,489 DEBUG    [22886] (deoplete.core) do_complete (TextChangedI): 0 candidates, input=import , complete_position=-1, is_async=1
+2019-01-06 00:08:30,489 DEBUG    [22886] (deoplete.core) do_complete (Async): 0 candidates, input=import , complete_position=-1, is_async=1
+2019-01-06 00:08:30,499 DEBUG    [22886] (deoplete.core) do_complete (Async): 500 candidates, input=import , complete_position=7, is_async=0

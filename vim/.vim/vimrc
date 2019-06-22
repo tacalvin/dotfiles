@@ -1,0 +1,101 @@
+" Filetype plugins
+" Enable syntax highlighting
+filetype plugin indent on
+filetype indent on
+syntax on
+
+" vim plug
+call plug#begin('~/.local/share/nvim/plugged')
+    Plug 'romainl/Apprentice'
+    " TODO add key binding
+    Plug 'vim-scripts/Align'
+    Plug 'Raimondi/delimitMate' " auto complete quotes parenthese etc
+    "Plug 'nathanaelkane/vim-indent-guides' " show indent guides
+    Plug 'scrooloose/nerdcommenter' "Comments
+    Plug 'scrooloose/nerdtree' " File Tree 
+    Plug '/usr/bin/fzf' "Fuzzy finder
+    Plug 'w0rp/ale' "Ale Linter
+    " Plug 'Valloric/YouCompleteMe'
+    Plug '/usr/share/vim/vimfiles' "Load any aur vim plug ins 
+call plug#end()
+" You complete me global conf
+let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
+
+" Enable colorscheme
+colorscheme apprentice
+set background=dark
+" Enable indent guides
+"" Indent colors are not visible due to apprentice
+" hit % on an if to go to else
+runtime macros/matchit.vim
+
+"Nerd Tree key bind
+map <C-b> :NERDTreeToggle<CR>
+"Open Nerd Tree if no file selected
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+"Close vim if only nerdtree left
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+
+
+" Tab == 4 spaces
+filetype plugin indent on
+" show existing tab with 4 spaces width
+set tabstop=4
+" when indenting with '>', use 4 spaces width
+set shiftwidth=4
+" On pressing tab, insert 4 spaces
+set expandtab
+
+let mapleader=","       " leader is comma
+
+
+" Navigating splits
+nnoremap <leader><Right> <C-w>l
+nnoremap <leader><Left> <C-w>h
+nnoremap <leader><Up> <C-w>k
+nnoremap <leader><Down> <C-w>j
+
+
+
+
+
+" QoL settings
+set autoindent 
+set backspace=indent,eol,start " Proper backspace behavior
+set hidden "more then one unsaved buffer
+
+"" Search settings
+set incsearch "Incremental search
+set hlsearch " highligh matches
+"" Turn off highlights
+nnoremap <leader><space> :nohlsearch<CR>
+
+set foldenable " Enable folding
+set foldlevelstart=10 " Open most folds by default
+set foldnestmax=10      " 10 nested fold max
+" space open/closes folds
+nnoremap <space> za
+set foldmethod=indent   " fold based on indent level
+
+set ruler "Shows current line number 
+set wildmenu "Cmdline completion
+set number " line numbers
+set showcmd " show last command
+set cursorline " highlight current line
+set lazyredraw " Redraw only when needed
+set showmatch " highlight matching () 
+
+" gundo undoing
+nnoremap <leader>u :GundoToggle<CR>
+
+" save session
+nnoremap <leader>s :mksession<CR><Paste>
+
+
+
+
+
+
+
